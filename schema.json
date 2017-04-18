@@ -1,0 +1,149 @@
+{
+	"fields": [
+		{
+			"name": "SampleNumber",
+			"title": "Sample number",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "DateReceived",
+			"title": "Date received",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+				"datePattern": "%Y-%m-%d"
+			}
+		},
+		{
+			"name": "BoxTempNoReceipt",
+			"title": "Box temperature number of receipt",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		},
+		{
+			"name": "Country",
+			"title": "Country",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "DurabilityDate",
+			"title": "Durability date",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "TempAtCollection",
+			"title": "Temperature at collection",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "ConditionOfSample",
+			"title": "Condition of sample",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "ProductWeightInPounds",
+			"title": "Product weight in pounds",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "CostOfChicken",
+			"title": "Cost of chicken in pounds",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		},
+		{
+			"name": "TypeOfChicken",
+			"title": "Type of chicken",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "PackagingAtmosphere",
+			"title": "Packaging atmosphere",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "PackagingDetails",
+			"title": "Packaging details",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "NeckSkinWeightInSample",
+			"title": "Neck skin weight in sample",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "Test",
+			"title": "Test",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "Result",
+			"title": "Result",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "Units",
+			"title": "Units",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "Species",
+			"title": "Species",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "MethodEvalPhase",
+			"title": "Method of evaluation phase",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		}
+	]
+}
